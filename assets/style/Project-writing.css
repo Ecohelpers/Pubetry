@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(to top, #004e45 10%, #009c8a 100%);
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+header{
+    width: 100%;
+    height: 27px;
+    background-color: #006e61;
+    position: fixed;
+    z-index: 10;
+}
+.Gmail-contact{
+    height: 20px;
+    width: 200px;
+    position: fixed;
+    top: 3px;
+    left: 45px;
+}
+.Gmail-icon{
+    height: 32px;
+    position: relative;
+    top: -4.5px;
+    left: -25px;
+}
+.Gmail{
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 12px;
+    top: -33.5px;
+    left: 35px;
+}
+.Back-button{
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    position: fixed;
+    top: 53px;
+    left: 50px;
+    font-size: 10px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-color: transparent;
+    transition: ease 0.2s;
+    border-radius: 50px;
+}
+.Back-button:hover{
+    opacity: 0.5;
+    rotate: 20deg;
+    box-shadow: 0 0 25px #ffffff;
+}
+main{
+    height: 100vh;
+    width: 70%;
+    background-color: #008374;
+    margin: 0 auto;
+    position: relative;
+}
+.Title{
+    height: 130px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Title p{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    font-weight: bolder;
+}
+.Title div{
+    background-color: #007164;
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    top: 90px;
+    border-radius: 50px;
+}
+.Firsttext{
+    height: 420px;
+    width: 100%;
+    position: absolute;
+    top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    z-index: 4;
+}
+.One{
+    height: 80px;
+    width: 90%;
+    font-weight: bolder;
+    color: white;
+}
+.OneAnswer{
+    height: 80px;
+    width: 90%;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 20px;
+}
+.Two{
+    height: 80px;
+    width: 90%;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 42px;
+}
+.Three{
+    height: 80px;
+    width: 90%;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 65px;
+}
+.ThreeAnswer{
+    height: 80px;
+    width: 90%;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 85px;
+}
+.Four{
+    height: 80px;
+    width: 90%;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 105px;
+}
+.FourAnswer{
+    height: 80px;
+    width: 90%;
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 125px;
+}
+
+.Study{
+    height: 210px;
+    position: absolute;
+    right: 1%;
+    top: 5%;
+}
+.Read{
+    height: 210px;
+    position: absolute;
+    left: 1%;
+    top: 5%;
+    z-index: 0;
+}
+@media (max-width:1180px){
+    .Firsttext .One, .Two, .Three, .OneAnswer, .ThreeAnswer, .Four, .FourAnswer{
+        font-size: 11px;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .Study, .Read{
+        height: 130px;
+        top: 230px;
+        right: 0.1%;
+        z-index: 1;
+    }
+    main{
+        width: 70%;
+    }
+}
+@media (max-width:670px){
+    .Firsttext .One, .Two, .Three, .OneAnswer, .ThreeAnswer, .Four, .FourAnswer{
+        font-size: 10px;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+@media (max-width:525px){
+    .Firsttext .One, .Two, .Three, .OneAnswer, .ThreeAnswer, .Four, .FourAnswer{
+        font-size: 8px;
+        width: 70%;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .Study, .Read{
+        height: 90px;
+        top: 170px;
+        right: 0.1%;
+        z-index: 1;
+    }
+    main{
+        width: 70%;
+    }
+}
+
+
